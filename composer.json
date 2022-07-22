@@ -1,0 +1,45 @@
+{
+  "name": "jambagecom/base-enum",
+  "type": "typo3-cms-extension",
+  "description": "A library to make the PHP enum operator possible.",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "enum"
+  ],
+  "support": {
+    "issues": "https://github.com/franzholz/base_enum/issues"
+  },
+  "homepage": "https://jambage.com",
+  "authors": [
+    {
+        "name": "PHP Enum contributors",
+        "homepage": "https://github.com/myclabs/php-enum/graphs/contributors"
+    },
+    {
+      "name": "Franz Holzinger",
+      "role": "Developer",
+      "homepage": "https://ttproducts.de"
+    }
+  ],
+  "license": [
+    "GPL-2.0-or-later"
+  ],
+  "require": {
+    "php": "^7.3 || ^8.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+        "MyCLabs\\Enum\\": "Vendor/src/"
+    }
+  },
+  "replace": {
+    "typo3-ter/base-enum": "self.version"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "base_enum"
+    }
+  }
+}
