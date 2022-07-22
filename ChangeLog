@@ -1,3 +1,5 @@
+2022-07-22 Franz Holzinger <franz@ttproducts.de>
+    * bugfix composer.json: repositories must be used in order to save the myclabs/php-enum namespace.
 
 2022-07-22 Franz Holzinger <franz@ttproducts.de>
     * initial creation based on php-enum-1.8.3: See the file Vendor/version.txt and https://github.com/myclabs/php-enum/releases .

@@ -29,11 +29,12 @@
     "php": "^7.3 || ^8.0",
     "ext-json": "*"
   },
-  "autoload": {
-    "psr-4": {
-        "MyCLabs\\Enum\\": "Vendor/src/"
+  "repositories": [
+    {
+        "type": "path",
+        "url": "Vendor/src"
     }
-  },
+  ],
   "replace": {
     "typo3-ter/base-enum": "self.version"
   },
