@@ -1,11 +1,3 @@
-base_enum
-=========
-This provides the PHP Enum library.
-
-
-
-
-
 # TYPO3 extension base_enum
 
 ## What is does
